@@ -19,7 +19,7 @@ function Navbar({}: Props) {
   return (
     <header
       style={{ backgroundColor: `${navBg}` }}
-      className="fixed w-full h-20 shadow-xl space-y-4"
+      className=" w-full h-20 shadow-xl space-y-4"
     >
       <div className="w-full top-0 mx-auto flex p-5 items-center navbar max-w-6xl justify-between ">
         <motion.div
