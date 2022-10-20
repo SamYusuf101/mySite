@@ -11,7 +11,7 @@ import Skills from "../components/Skills";
 const Home = () => (
   <div
     className="bg-[#242424] w-full h-screen  overflow-x-hidden 
-  overflow-y-scroll z-0"
+  overflow-y-scroll z-0 !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600"
   >
     <div className="first-letter:">
       <div className="">

@@ -44,7 +44,7 @@ function Projects({}: Props) {
           </div>
         </div>
         <div
-          className="relative flex flex-col items-center justify-center h-auto w-full pt-32
+          className="relative flex flex-col items-center justify-center h-auto w-full pt-15
     shadow-gray-400 rounde-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
         >
           <Image
