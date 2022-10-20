@@ -10,7 +10,7 @@ import Skills from "../components/Skills";
 
 const Home = () => (
   <div
-    className="bg-[#242424] w-full h-screen  overflow-x-hidden snap-y snap-mandatory 
+    className="bg-[#242424] w-full h-screen  overflow-x-hidden 
   overflow-y-scroll z-0"
   >
     <div className="first-letter:">
@@ -18,21 +18,21 @@ const Home = () => (
         <Navbar />
       </div>
     </div>
-    <section id="hero" className=" text-white snap-start">
+    <section id="hero" className=" text-white">
       <div className="">
         <div className="">
           <Hero />
         </div>
       </div>
     </section>
-    <section id="about" className=" text-white snap-center">
+    <section id="about" className=" text-white">
       <div className="first-letter:">
         <div className="">
           <About />
         </div>
       </div>
     </section>
-    <section id="skills" className=" text-white snap-center ">
+    <section id="skills" className=" text-white ">
       <div className="">
         <div className="">
           <Skills />
@@ -42,7 +42,7 @@ const Home = () => (
 
     <section
       id="projects"
-      className="relative mt-8 pt-100 py-80 md:pt-5  text-white snap-start "
+      className="relative mt-8 pt-100 py-80 md:pt-5  text-white "
     >
       <div className={`bg-[#242424] `}>
         <div className="">
@@ -50,7 +50,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-    <section id="contacts" className=" text-white snap-center ">
+    <section id="contacts" className=" text-white ">
       <div className="">
         <div className="">
           <Contact />
