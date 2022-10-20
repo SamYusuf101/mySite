@@ -15,12 +15,12 @@ function Projects({}: Props) {
     items-center px-10 text-left md:flex-row "
     >
       <h3
-        className="absolute top-24  p-2 uppercase tracking-[20px] text-white text-2xl 
+        className="absolute top-40 md:pt-20 p-20 uppercase tracking-[20px] text-white text-2xl 
       "
       >
         Projects
       </h3>
-      <div className="pt-60 sm:pt-40 md:pt-60 grid md:grid-cols-2 gap-8">
+      <div className="pt-60 mt-20 md:pt-70 grid md:grid-cols-2 gap-8">
         <div
           className="relative flex flex-col items-center justify-center h-auto w-full 
     shadow-gray-400 rounde-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"

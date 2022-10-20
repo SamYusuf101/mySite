@@ -71,7 +71,21 @@ const Navbar = () => {
             bgColor="transparent"
           />
         </motion.div>
-        <div>
+        <motion.div
+          initial={{
+            x: 500,
+            opacity: 0,
+            scale: 1.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{
+            duration: 1.5,
+          }}
+        >
           <ul className="hidden md:flex text-white pt-2 items-center">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400">
@@ -102,7 +116,7 @@ const Navbar = () => {
           <div onClick={handleNav} className="md:hidden  text-white">
             <AiOutlineMenu size={25} />
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="md:hidden">
         <div
@@ -128,9 +142,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="py-4 flex flex-col">
-              <ul className="uppercase">
+              <ul className="uppercase text-white">
                 <Link href="/">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm ">
                     Home
                   </li>
                 </Link>
