@@ -39,7 +39,124 @@ function Skills({}: Props) {
       >
         Current skills proficiency
       </motion.h3>
-      <div className=" absolute top-52 md:top-52 grid grid-cols-2 p-2 lg:grid-cols-4 gap-8">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 3.5 }}
+        className="md:hidden absolute top-52 md:top-52 grid grid-cols-2 p-3 lg:grid-cols-4 gap-8"
+      >
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={htmlImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>HTML</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={nextImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>NEXT-JS</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={javascriptImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={sanityImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>SANITY</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={tailwindImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>TAILWIND</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={github1Img} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>GITHUB</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={reactImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>REACT</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={cssImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>CSS</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={visualImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>VISUAL STUDIO</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={chatfuelImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>CHATFUEL</h3>
+            </div>
+          </div>
+        </div>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image src={amplifyImg} alt="/" width="65px" height="65px" />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>AMPLIFY</h3>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+      <div className="hidden absolute top-52 md:top-52 md:grid grid-cols-2 p-2 lg:grid-cols-4 gap-8">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -72,7 +189,7 @@ function Skills({}: Props) {
         </motion.div>
         <motion.div
           initial={{ x: -200, opacity: 0 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, x: 1 }}
           transition={{ duration: 1 }}
           className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
         >

@@ -85,7 +85,7 @@ function Navbar({}: Props) {
             </Link>
             <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#F7AB0A]">
-                Skils
+                Skills
               </li>
             </Link>
             <Link href="/#projects">
