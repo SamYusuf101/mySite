@@ -40,10 +40,7 @@ const Home = () => (
       </div>
     </section>
 
-    <section
-      id="projects"
-      className="relative mt-8 pt-100 py-80 md:pt-5  text-white "
-    >
+    <section id="projects" className=" text-white ">
       <div className={`bg-[#242424] `}>
         <div className="">
           <Projects />
