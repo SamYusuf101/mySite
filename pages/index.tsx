@@ -13,7 +13,7 @@ const Home = () => (
     className="bg-[#242424] w-full h-screen  overflow-x-hidden 
   overflow-y-scroll z-0 !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600"
   >
-    <div className="first-letter:">
+    <div className="">
       <div className="">
         <Navbar />
       </div>
@@ -26,31 +26,9 @@ const Home = () => (
       </div>
     </section>
     <section id="about" className=" text-white">
-      <div className="first-letter:">
+      <div className="">
         <div className="">
           <About />
-        </div>
-      </div>
-    </section>
-    <section id="skills" className=" text-white ">
-      <div className="">
-        <div className="">
-          <Skills />
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" className=" text-white ">
-      <div className={`bg-[#242424] `}>
-        <div className="">
-          <Projects />
-        </div>
-      </div>
-    </section>
-    <section id="contacts" className=" text-white ">
-      <div className="">
-        <div className="">
-          <Contact />
         </div>
       </div>
     </section>

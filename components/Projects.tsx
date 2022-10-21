@@ -12,17 +12,17 @@ function Projects({}: Props) {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 2 }}
       className="  relative flex   flex-col justify-evenly max-w-7xl mx-auto
-    items-center px-10 text-left md:flex-row "
+    items-center px-10 text-left  md:flex-row "
     >
       <h3
-        className="absolute   pt-40 top-40 md:pt-20 p-20 uppercase tracking-[20px] text-white text-2xl 
+        className="absolute pt-80  md:pt-96 lg:top-40 lg:pt-10 p-20 uppercase tracking-[20px] text-white text-2xl 
       "
       >
         Projects
       </h3>
-      <div className=" pt-80 mt-10 md:pt-70 grid md:grid-cols-2 gap-8">
+      <div className="relative pt-80 mt-10 md:pt-70 md:top-80 lg:top-10 grid md:grid-cols-2 gap-8">
         <div
-          className="relative flex flex-col items-center justify-center h-auto w-full pt-32
+          className="relative flex flex-col items-center justify-center h-auto w-full pt-25
     shadow-gray-400 rounde-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
         >
           <Image
