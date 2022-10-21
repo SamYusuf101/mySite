@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -25,29 +26,6 @@ function About({}: Props) {
         focused on building responsive front-end web/mobile applications while
         learning back-end technologies.
       </p>
-      <div className="space-x-4 space-y-4 pt-80  mt-60 md:pt-80 md:mt-10 lg:pt-60 ">
-        <button
-          className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold 
-         hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-        >
-          Button
-        </button>
-        <button
-          className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold 
-         hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-        >
-          Button
-        </button>
-        <button
-          className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold 
-         hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-        >
-          Button
-        </button>
-        <div className="pt-20">
-          <h3>copyright © 2022 &nbsp; Sam Yusuf</h3>
-        </div>
-      </div>
     </motion.div>
   );
 }

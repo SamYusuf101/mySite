@@ -26,7 +26,7 @@ function Contact({}: Props) {
           I have got just what you need. Contact me through any of the options
           below
         </h4>
-        <div className=" flex flex-row items-center justify-center ">
+        <div className=" flex flex-row items-center justify-center animate-pulse">
           <SocialIcon
             url="https://github.com"
             fgColor="white"
@@ -37,7 +37,7 @@ function Contact({}: Props) {
             url="https://email.com"
             fgColor="white"
             bgColor="transparent"
-            className="md:w-50 md:h-20"
+            className="md:w-50 md:h-20 "
           />
           <SocialIcon
             url="https://twitter.com"

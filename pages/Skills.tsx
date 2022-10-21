@@ -18,9 +18,10 @@ type Props = {};
 function Skills({}: Props) {
   return (
     <div
-      className="h-screen relative flex flex-col text-center md:text-left xl:flex-row
-    max-w-[2000px] xl:px-10 min-h-screen justify-center
-    xl:space-y-0 mx-auto items-center"
+      className="h-screen relative flex flex-col overflow-y-scroll text-center md:text-left xl:flex-row
+    max-w-[2000px] xl:px-10 min-h-screen overflow-x-hidden justify-center
+    xl:space-y-0 mx-auto items-center
+    !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600"
     >
       <motion.h3
         initial={{ x: 200, opacity: 0 }}

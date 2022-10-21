@@ -86,29 +86,29 @@ const Navbar = () => {
             duration: 1.5,
           }}
         >
-          <ul className="hidden md:flex text-white pt-2 items-center">
+          <ul className="hidden md:flex text-white pt-2 items-center no-underline cursor-pointer">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400">
+              <li className="ml-10 text-sm uppercase hover:  hover:text-yellow-400">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400">
+            <Link href="/About">
+              <li className="ml-10 text-sm uppercase hover: hover:text-yellow-400 ">
                 About
               </li>
             </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400">
-                Skils
+            <Link href="/Skills">
+              <li className="ml-10 text-sm uppercase hover: hover:text-yellow-400">
+                Skills
               </li>
             </Link>
-            <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400 ">
+            <Link href="/Projects">
+              <li className="ml-10 text-sm uppercase hover: hover:text-yellow-400 ">
                 Projects
               </li>
             </Link>
-            <Link href="/#contacts">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-blue-400">
+            <Link href="/Contact">
+              <li className="ml-10 text-sm uppercase hover: hover:text-yellow-400">
                 Contact
               </li>
             </Link>

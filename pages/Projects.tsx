@@ -11,16 +11,19 @@ function Projects({}: Props) {
       initial={{ x: -200, opacity: 0 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 2 }}
-      className="  relative flex   flex-col justify-evenly max-w-7xl mx-auto
-    items-center px-10 text-left  md:flex-row "
+      className="  h-screen max-w-[2000px] relative flex  w-full overflow-y-scroll  
+      bg-[#242424] flex-col justify-evenly  mx-auto
+    items-center px-10 text-left overflow-x-hidden md:flex-row  
+    !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600 "
     >
       <h3
-        className="absolute pt-80  md:pt-96 lg:top-40 lg:pt-10 p-20 uppercase tracking-[20px] text-white text-2xl 
+        className="absolute top-28 pb-4 uppercase tracking-[20px] text-white text-2xl 
       "
       >
         Projects
       </h3>
-      <div className="relative pt-80 mt-10 md:pt-70 md:top-80 lg:top-10 grid md:grid-cols-2 gap-8">
+
+      <div className="relative mt-80 pt-60 top-20 lg:mt-60 lg:pt-80  md:pt-60 md:mt-60  grid md:grid-cols-2 gap-8">
         <div
           className="relative flex flex-col items-center justify-center h-auto w-full pt-25
     shadow-gray-400 rounde-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
@@ -99,6 +102,7 @@ function Projects({}: Props) {
           <h3>pppp</h3>
         </div>
       </div>
+
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[350px] -skew-y-12" />
     </motion.div>
   );
