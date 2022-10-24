@@ -27,7 +27,7 @@ function Skills({}: Props) {
         initial={{ x: 200, opacity: 0 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 2 }}
-        className="absolute top-28 pb-4 uppercase tracking-[20px] text-white text-2xl"
+        className="absolute top-28 pb-4 uppercase tracking-[20px] text-black md:text-white text-2xl"
       >
         Skills
       </motion.h3>

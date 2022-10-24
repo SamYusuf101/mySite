@@ -10,7 +10,7 @@ import Skills from "./Skills";
 
 const Home = () => (
   <div
-    className="bg-[#242424] w-full h-screen overflow-x-hidden snap-y snap-mandatory 
+    className="bg-[#242424] w-full h-screen overflow-x-hidden  
  z-0 !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600"
   >
     <div className="">
