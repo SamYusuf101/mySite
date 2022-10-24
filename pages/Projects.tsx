@@ -23,7 +23,7 @@ function Projects({}: Props) {
         Projects
       </h3>
 
-      <div className="relative mt-80 pt-40 top-20 lg:mt-60 lg:pt-80  md:pt-60 md:mt-60  grid md:grid-cols-2 gap-8">
+      <div className="relative mt-70 pt-40 top-20 lg:mt-60 lg:pt-80  md:pt-60 md:mt-60  grid md:grid-cols-2 gap-8">
         <div
           className="relative flex flex-col items-center justify-center h-auto w-full pt-25
     shadow-gray-400 rounde-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
