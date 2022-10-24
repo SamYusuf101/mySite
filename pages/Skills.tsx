@@ -44,7 +44,7 @@ function Skills({}: Props) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 3.5 }}
-        className="md:hidden absolute top-52 md:top-52 grid grid-cols-2 p-3 lg:grid-cols-4 gap-8"
+        className="md:hidden absolute top-52 md:top-52 grid grid-cols-1 p-3 md:grid-cols-4 lg:grid-cols-4 gap-8"
       >
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-cols-2 gap-4 justify-center items-center">
