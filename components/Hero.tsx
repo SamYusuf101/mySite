@@ -20,7 +20,7 @@ function Hero({}: Props) {
         <BackgroundCircle />
 
         <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
-          <span>{text}</span>
+          
           <Cursor cursorColor="yellow" />
         </h1>
         <h1 className="tracking-[5px] text-sm p-5">Software Developer</h1>
