@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
-import { SocialIcon } from "react-social-icons";
+
 
 const Navbar = () => {
   const [shadow, setShadow] = useState(false);
