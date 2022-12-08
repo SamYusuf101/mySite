@@ -11,7 +11,6 @@ import chatfuelImg from "../assets/chatfuel.png";
 import amplifyImg from "../assets/amplify.png";
 import sanityImg from "../assets/sanity.png";
 import nextImg from "../assets/next.jpg";
-import visualImg from "../assets/visual.png";
 
 type Props = {};
 
