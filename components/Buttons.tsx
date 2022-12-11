@@ -10,8 +10,5 @@ import Link from "next/link";
       Button
     </button>
   </Link>
-  <Link href="/Contact">
-    
-    </button>
-  </Link>
+Link>
 </div>;
