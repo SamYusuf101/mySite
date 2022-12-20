@@ -149,7 +149,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/About">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    About
+                    spec
                   </li>
                 </Link>
                 <Link href="/Skills">
