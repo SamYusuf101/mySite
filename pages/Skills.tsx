@@ -10,7 +10,7 @@ import javascriptImg from "../assets/javascript.png";
 import chatfuelImg from "../assets/chatfuel.png";
 import amplifyImg from "../assets/amplify.png";
 import sanityImg from "../assets/sanity.png";
-import nextImg from "../assets/next.jpg";
+
 
 type Props = {};
 
