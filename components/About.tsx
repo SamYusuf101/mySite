@@ -13,9 +13,9 @@ function About({}: Props) {
       className="h-screen text-center relative flex flex-col justify-evenly max-w-7xl mx-auto
     items-center px-10 md:text-left md:flex-row"
     >
-      <h5 className="absolute top-28 uppercase tracking-[20px] text-white text-2xl  ">
+      <h6 className="absolute top-28 uppercase tracking-[20px] text-white text-2xl  ">
         About
-      </h5>
+      </h6>
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[350px] -skew-y-12" />
 
       <p className="absolute top-40  p-5 pb-20 px-0 md:px-10 text-lg text-white ">
